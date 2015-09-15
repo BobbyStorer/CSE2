@@ -14,21 +14,21 @@ import java.util.Scanner; //import scanner class
         
         Scanner myScanner = new Scanner(System.in); //create an instance of the Scanner class
         
-            System.out.printf("What is the height of the cube? : ");
-            double height = myScanner.nextDouble();
+            System.out.printf("What is the height of the cube? : "); //prompts user to enter cube height
+            double height = myScanner.nextDouble(); //accepts input from user
         
-            System.out.printf("What is the length of the cube? : ");
-            double length = myScanner.nextDouble();
-        
-            System.out.printf("What is the width of the cube? : ");
-            double width = myScanner.nextDouble();
+            System.out.printf("What is the length of the cube? : "); //prompts user to enter cube length
+            double length = myScanner.nextDouble(); //accepts input from user
+         
+            System.out.printf("What is the width of the cube? : "); //prompts user to enter cube width
+            double width = myScanner.nextDouble(); //accepts user input
             
-                double cubeVolume = (height*length*width);
-                double surfaceArea = ((2*height*length) + (2*height*width) + (2*length*width));
+                double cubeVolume = (height*length*width); //variable defining the cube's volume
+                double surfaceArea = ((2*height*length) + (2*height*width) + (2*length*width)); //variable defining cube's surface area
                 
-                    System.out.println("The cube's volume is: " + cubeVolume);
-                    System.out.println("The cube's surafce area is: " + surfaceArea);
+                    System.out.println("The cube's volume is: " + cubeVolume); //prints the volume
+                    System.out.println("The cube's surafce area is: " + surfaceArea); //prints the surface area
                 
         
-    }
-    }
+    } //close main method
+    } //close class
